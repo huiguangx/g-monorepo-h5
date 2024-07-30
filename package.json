@@ -1,12 +1,24 @@
 {
-  "name": "g_monorepo_h5",
+  "name": "g",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "app1:dev": "pnpm -F @g/web1 run dev",
+    "app1:build": "pnpm -F @g/web1 run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "guang",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "element-plus": "^2.7.8",
+    "vue": "^3.4.34"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.4",
+    "vue-tsc": "^2.0.24"
+  }
 }

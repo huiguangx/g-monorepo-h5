@@ -1,0 +1,13 @@
+{
+  "name": "@g/web2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

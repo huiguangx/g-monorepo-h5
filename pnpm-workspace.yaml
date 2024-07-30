@@ -1,0 +1,7 @@
+packages:
+  # all packages in direct subdirs of packages/   放置各种公共模块
+  - "packages/*"
+  # all packages in subdirs of apps/  放置h5页面
+  - "apps/**"
+  # exclude packages that are inside test directories
+  - "!**/test/**"

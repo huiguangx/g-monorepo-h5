@@ -9,6 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "preinstall": "npx only-allow pnpm",
     "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx",
+    "lint:fix": "npx eslint . --ext .js,.jsx,.ts,.tsx,.vue --fix",
     "format": "prettier --write ./**/*.{vue,ts,tsx,js,jsx,css,less,scss,json,md}"
   },
   "keywords": [],

@@ -6,6 +6,7 @@
     "source.fixAll.eslint": true
   },
   // 保存的时候自动格式化
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
   // 默认格式化工具选择prettier-eslint
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }

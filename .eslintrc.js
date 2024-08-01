@@ -7,7 +7,7 @@ module.exports = {
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:vue/vue3-essential",
-    // 将 prettier 放在最后面，让它的优先级比 eslint 低一点
+    // 将 prettier 放在最后面，覆盖eslint规则
     "plugin:prettier/recommended",
   ],
   overrides: [

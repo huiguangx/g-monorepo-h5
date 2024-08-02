@@ -4,3 +4,4 @@
  * Copyright © YourCompanyName All rights reserved
  */
 export { getAge } from "./getAge";
+console.log(getAge());

@@ -1,0 +1,14 @@
+# .stylelintignore
+**/node_modules/**
+**/dist/**
+**/build/**
+**/public/**
+**/.husky/**
+**/.bin/**
+**/docs/**
+**/html/**
+**/.vscode/**
+**/.idea/**
+
+*.sh
+*.md

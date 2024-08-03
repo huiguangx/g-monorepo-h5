@@ -1,4 +1,0 @@
-# .stylelintignore stylelint忽略文件
-/node_modules/*
-/dist/*
-/public/*

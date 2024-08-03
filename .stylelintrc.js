@@ -9,6 +9,8 @@ module.exports = {
     "stylelint-config-standard",
     "stylelint-config-rational-order",
     "prettier",
+    "stylelint-config-standard-scss",
+    "stylelint-config-standard-vue/scss",
   ],
   plugins: ["stylelint-prettier", "stylelint-scss"],
   overrides: [
